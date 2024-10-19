@@ -13,3 +13,78 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* navbar st */
+.navbar,
+.banner {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.bg_background {
+  background-color: #ff900e1a;
+}
+.brand {
+  color: #131313;
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+
+.navbar .menu {
+  display: flex;
+  list-style: none;
+}
+
+.navbar .menu .menu_item {
+  margin-right: 50px;
+}
+.navbar .menu .menu_item .item {
+  text-decoration: none;
+  color: #424242;
+  font-family: "Work Sans";
+  font-size: 1.12rem;
+  font-weight: 500;
+}
+
+/* navbar ed */
+
+/* banner st */
+.banner {
+  text-align: center;
+}
+
+.banner .banner_title {
+  color: #131313;
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.banner .banner_descprition {
+  color: #727272;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 2rem;
+}
+
+.btn {
+  padding: 20px 24px;
+  border-radius: 8px;
+  background: #ff900e;
+  border: none;
+  margin-top: 30px;
+}
+
+.btn a {
+  color: #fff;
+  font-size: 1.12rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+/* banner ed */
