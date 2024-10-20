@@ -165,11 +165,43 @@ main {
 }
 
 .some_facts_descprition {
-  color:  #727272;
+  color: #727272;
   font-size: 1rem;
   font-weight: 400;
   line-height: 26px;
+  margin-top: 24px;
 }
+
+.fact_contant {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.fact_card {
+  border-radius: 8px;
+  border: 1px solid #ff900e;
+  width: 240px;
+  height: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.fact_number {
+  color: #424242;
+  font-size: 45px;
+  font-weight: 600;
+  padding: 10px 0;
+}
+
+.fact_name {
+  color: #727272;
+  font-size: 20px;
+  font-weight: 600;
+}
+
 /* some facts ed */
 
 /* responsive styles */
